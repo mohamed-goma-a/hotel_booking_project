@@ -1,6 +1,6 @@
 # Environments
 .env
-.venv
+.venv/
 env/
 venv/
 ENV/
@@ -30,11 +30,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 
-# Data and Models
+# Data
 hotel_bookings.csv
 *.csv
-*.pkl
-hotel_booking_model.pkl
 
 # IDE / OS
 .vscode/
